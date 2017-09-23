@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.joker.sqltest.LogInActivity">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/xmedium_margin"
+        android:contentDescription="@string/image_discription"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/medium_margin_top"
+        android:text="@string/welcome"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/phone_editText_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTextView"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/email_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/xmedium_margin"
+            android:layout_marginStart="@dimen/xmedium_margin"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/blue_grey_300" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/pass_editText_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_editText_layout"
+        android:layout_marginTop="12dp">
+
+        <EditText
+            android:id="@+id/pass_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/xmedium_margin"
+            android:layout_marginStart="@dimen/xmedium_margin"
+            android:hint="@string/passhint"
+            android:inputType="textPassword"
+            android:textColorHint="@color/blue_grey_300" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass_editText_layout"
+        android:layout_marginEnd="@dimen/xmedium_margin"
+        android:layout_marginStart="@dimen/xmedium_margin"
+        android:layout_marginTop="@dimen/medium_margin_top"
+        android:background="@drawable/login_back"
+        android:gravity="center"
+        android:padding="@dimen/small_padding"
+        android:text="@string/login_btn"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/signinBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginBtn"
+        android:layout_marginEnd="@dimen/xmedium_margin"
+        android:layout_marginStart="@dimen/xmedium_margin"
+        android:layout_marginTop="@dimen/medium_margin_top"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="@dimen/small_padding"
+        android:text="@string/signup_btn"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="true"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signinBtn"
+        android:layout_marginTop="100dp"
+        android:text="@string/forgot_pass_btn"
+        android:gravity="center"
+        android:textColor="@color/cyan_800"
+        android:layout_marginEnd="@dimen/xmedium_margin"
+        android:layout_marginStart="@dimen/xmedium_margin"
+        android:id="@+id/forgotPassBtn"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/forgotPassBtn"
+        android:layout_marginEnd="@dimen/xmedium_margin"
+        android:layout_marginTop="@dimen/small_margin_top"
+        android:layout_marginStart="@dimen/xmedium_margin"
+        android:background="@color/grey_300" />
+
+    <TextView
+        android:id="@+id/signinWith"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgotPassBtn"
+        android:layout_marginTop="@dimen/medium_margin_top"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textColor="@color/grey_500"
+        android:text="@string/signin_options"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/googleBtn"
+        android:layout_width="@dimen/xlarge_margin"
+        android:layout_height="@dimen/xlarge_margin"
+        android:background="@drawable/google"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/signinWith"/>
+
+
+
+</RelativeLayout>

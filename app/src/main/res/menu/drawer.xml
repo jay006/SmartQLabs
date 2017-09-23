@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/show_me"
+            android:checked="false"
+            android:icon="@drawable/ic_show_me"
+            android:title="Me" />
+
+        <item
+            android:id="@+id/suggestion"
+            android:checked="false"
+            android:icon="@drawable/ic_place"
+            android:title="Suggestion" />
+
+        <item
+            android:id="@+id/about_us"
+            android:checked="false"
+            android:icon="@drawable/ic_about_us"
+            android:title="About us" />
+    </group>
+
+    <item android:title="Sub Menu" android:checked="false">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_sad_smile"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

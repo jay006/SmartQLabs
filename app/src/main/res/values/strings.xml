@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SmartQueueLabs</string>
+    <string name="image_discription">image</string>
+    <string name="min">min</string>
+    <string name="qr_otp">QR:-OTP</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="phoneHint">PhoneNo.</string>
+    <string name="passhint">Password</string>
+    <string name="signin_options">Sign In With</string>
+
+    <string name="g_btn">Get Started</string>
+    <string name="login_btn">Log  in</string>
+    <string name="signup_btn">Sign up</string>
+    <string name="forgot_pass_btn">Forgot password?</string>
+    <string name="email">Email</string>
+    <string name="refresh">Refresh</string>
+    <string name="connection_failed">Please connect to interner.</string>
+    <string name="no_online_queues">No Live Queues…</string>
+</resources>

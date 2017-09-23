@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joker.sqltest.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--creating Toolbar-->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/cyan_800"
+            app:title="HOME"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+            <!--ListView-->
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/toolbar"
+                android:layout_marginTop="5dp"
+                android:clipToPadding="false"
+                android:padding="10dp"
+                android:visibility="gone" />
+
+        <!--LinearLayout when there is no records it will be visible-->
+        <LinearLayout
+            android:id="@+id/nodataTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:layout_below="@id/toolbar"
+            android:paddingTop="50dp">
+
+            <ImageView
+                android:layout_marginTop="70dp"
+                android:layout_width="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="0dp"
+                android:src="@drawable/final_no_queue_pic"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/grey_500"
+                android:textSize="25dp"
+                android:gravity="center_horizontal"
+                android:text="@string/no_online_queues"/>
+
+        </LinearLayout>
+
+        <!--Floating Button-->
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="80dp"
+            app:fabSize="normal"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/teal_400"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp"
+            android:src="@drawable/ic_add" />
+
+    </RelativeLayout>
+
+    <!--NavigationView-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/drawer" />
+
+</android.support.v4.widget.DrawerLayout>
