@@ -705,6 +705,8 @@ public class MainActivity extends AppCompatActivity implements ListAdapter.EditC
                                     });
                                 }
 
+                                Log.d(TAG,"UpdateCheck "+response);
+
 
 
                             } else if (statusCode == 500) {
