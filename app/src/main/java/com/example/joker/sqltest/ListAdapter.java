@@ -18,7 +18,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import java.util.ArrayList;
 
 /**
- * Created by joker on 24/8/17.
+ * Created by joker on 22/9/17.
  */
 
 public class ListAdapter extends BaseAdapter {

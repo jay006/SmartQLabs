@@ -9,13 +9,13 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.ArrayList;
 
 /**
- * Created by joker on 24/8/17.
+ * Created by joker on 22/9/17.
  */
 
 public class SQLiteHelper extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME = "QitDatabase.db";
+    private static final String DATABASE_NAME = "SmartLabsDatabase.db";
     private static final String TABLE_NAME = "QUEUE";
     private static final String COLUMN_ID = "ID";
     private static final String COLUMN_SHOP_NAME = "SHOP_NAME";

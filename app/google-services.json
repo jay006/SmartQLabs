@@ -8,50 +8,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:832347124296:android:981b6d4a7e553ab0",
-        "android_client_info": {
-          "package_name": "com.example.joker.qitnational"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "832347124296-6hb7jm3b0qnfl6br4bgi3u0vknsm3ojo.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.joker.qitnational",
-            "certificate_hash": "40c3ffb8311b3bff13dd411174faddd36691305b"
-          }
-        },
-        {
-          "client_id": "832347124296-141085th5dcphunbssvuf0ggqidomtt7.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDNzusoqWxb_TVIft5g_wVp0ljA-1Lct6U"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "832347124296-141085th5dcphunbssvuf0ggqidomtt7.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:832347124296:android:a434f05045de02cb",
         "android_client_info": {
           "package_name": "com.example.joker.sqltest"
