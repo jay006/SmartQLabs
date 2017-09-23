@@ -1,4 +1,4 @@
-package com.example.joker.sqltest;
+package com.example.joker.smartqlabs;
 
 /**
  * Created by joker on 22/9/17.

@@ -1,12 +1,10 @@
-package com.example.joker.sqltest;
+package com.example.joker.smartqlabs;
 
 import android.content.Context;
 import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;

@@ -1,4 +1,4 @@
-package com.example.joker.sqltest;
+package com.example.joker.smartqlabs;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -14,8 +14,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class LogInActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 

@@ -1,4 +1,4 @@
-package com.example.joker.sqltest;
+package com.example.joker.smartqlabs;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

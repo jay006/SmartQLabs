@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.joker.sqltest">
+    package="com.example.joker.smartqlabs">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -24,13 +24,13 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.joker.smartqlabs.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Suggestion"
+            android:name="com.example.joker.smartqlabs.Suggestion"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.example.joker.smartqlabs.SplashActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,9 +39,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LogInActivity"
+            android:name="com.example.joker.smartqlabs.LogInActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ScanActivity"></activity>
+        <activity android:name="com.example.joker.smartqlabs.ScanActivity"></activity>
     </application>
 
 </manifest>

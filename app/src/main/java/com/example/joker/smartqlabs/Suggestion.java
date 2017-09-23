@@ -1,22 +1,17 @@
-package com.example.joker.sqltest;
+package com.example.joker.smartqlabs;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.vision.text.Line;
-
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
