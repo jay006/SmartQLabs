@@ -9,10 +9,10 @@
 
     <ImageView
         android:id="@+id/imageLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/xmedium_margin"
+        android:layout_marginTop="@dimen/small_margin"
         android:contentDescription="@string/image_discription"
         android:src="@mipmap/ic_launcher" />
 
@@ -25,7 +25,8 @@
         android:layout_marginTop="@dimen/medium_margin_top"
         android:text="@string/welcome"
         android:textAllCaps="true"
-        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textColor="@color/teal_400"
         android:textSize="20sp" />
 
     <android.support.design.widget.TextInputLayout
@@ -100,7 +101,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/signinBtn"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:text="@string/forgot_pass_btn"
         android:gravity="center"
         android:textColor="@color/cyan_800"

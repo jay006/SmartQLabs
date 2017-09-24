@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity implements ListAdapter.EditC
                         //TODO , pending to add new activity about team
                         break;
 
-                    case R.id.share:{
+                    case R.id.share: {
                         ApplicationInfo app = getApplicationContext().getApplicationInfo();
                         String filePath = app.sourceDir;
 
@@ -246,7 +246,7 @@ public class MainActivity extends AppCompatActivity implements ListAdapter.EditC
 
                     }
 
-                        break;
+                    break;
 
                     case R.id.logout:
                         Auth.GoogleSignInApi.signOut(googleApiClient).setResultCallback(new ResultCallback<Status>() {
@@ -321,7 +321,7 @@ public class MainActivity extends AppCompatActivity implements ListAdapter.EditC
                 //sending data after scan
                 new AsyncTaks().execute(sha1code);
 
-                Log.d(TAG,"SHA "+sha1code);
+                Log.d(TAG, "SHA " + sha1code);
 
 
             }
@@ -701,8 +701,7 @@ public class MainActivity extends AppCompatActivity implements ListAdapter.EditC
                                     });
                                 }
 
-                                Log.d(TAG,"UpdateCheck "+response);
-
+                                Log.d(TAG, "UpdateCheck " + response);
 
 
                             } else if (statusCode == 500) {
@@ -804,8 +803,8 @@ public class MainActivity extends AppCompatActivity implements ListAdapter.EditC
                         updateListView();
                     } else if (statusCode == 300) {
                         Toast.makeText(MainActivity.this, "Posted in virtual Standing", Toast.LENGTH_SHORT).show();
-                    }else if(statusCode == 310){
-                        Toast.makeText(MainActivity.this, "QR code already scanned",Toast.LENGTH_SHORT).show();
+                    } else if (statusCode == 310) {
+                        Toast.makeText(MainActivity.this, "QR code already scanned", Toast.LENGTH_SHORT).show();
                     }
                 } else if (statusCode == 400) {
                     Toast.makeText(MainActivity.this, "No counter active for specific QR Code.", Toast.LENGTH_SHORT).show();
