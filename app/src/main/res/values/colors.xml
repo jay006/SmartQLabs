@@ -2,9 +2,9 @@
 <resources>
 
     <!-- Colors for the app -->
-    <color name="colorPrimary">@color/blue_grey_600</color>
-    <color name="colorPrimaryDark">@color/black</color>
-    <color name="colorAccent">@color/cyan_800</color>
+    <color name="colorPrimary">#00aa8d</color>
+    <color name="colorPrimaryDark">#008975</color>
+    <color name="colorAccent">#00bf9a</color>
 
     <color name="red_50">#FFEBEE</color>
     <color name="red_100">#FFCDD2</color>

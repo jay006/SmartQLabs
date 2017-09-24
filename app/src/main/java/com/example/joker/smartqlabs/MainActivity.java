@@ -608,18 +608,18 @@ public class MainActivity extends AppCompatActivity implements ListAdapter.EditC
 
                     if (status) {
                         if (statusCode == 200) {
-                            Toast.makeText(MainActivity.this, "Queue canceld", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "Queue cancelled.", Toast.LENGTH_SHORT).show();
                             sqLiteHelper.deleteRecord(queue);
-                            Log.d(TAG, "Removed from  queue");
+                            Log.d(TAG, "Removed from  Queue");
                             updateListView();
                         }
                     } else {
                         if (statusCode == 400) {
-                            Toast.makeText(MainActivity.this, "Not Found Queue", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "No Queue found.", Toast.LENGTH_SHORT).show();
                         } else if (statusCode == 500) {
                             Toast.makeText(MainActivity.this, "PDO Exception", Toast.LENGTH_SHORT).show();
                         } else if (statusCode == 540) {
-                            Toast.makeText(MainActivity.this, "Incomplete Data", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "Incomplete Data.", Toast.LENGTH_SHORT).show();
                         }
                     }
 
@@ -808,7 +808,7 @@ public class MainActivity extends AppCompatActivity implements ListAdapter.EditC
                         Toast.makeText(MainActivity.this, "QR code already scanned",Toast.LENGTH_SHORT).show();
                     }
                 } else if (statusCode == 400) {
-                    Toast.makeText(MainActivity.this, "No Counter Active for specific QR Code.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "No counter active for specific QR Code.", Toast.LENGTH_SHORT).show();
                 } else if (statusCode == 402) {
                     Toast.makeText(MainActivity.this, "Wrong.", Toast.LENGTH_SHORT).show();
                 } else if (statusCode == 500) {

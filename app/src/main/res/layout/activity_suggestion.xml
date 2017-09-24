@@ -10,7 +10,7 @@
         android:id="@+id/toolbar_suggestion"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimary"
         app:title="Suggestions"
         android:theme="@style/ThemeOverlay.AppCompat.Dark" />
 
