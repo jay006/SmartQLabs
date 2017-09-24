@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "832347124296",
-    "firebase_url": "https://qitnational.firebaseio.com",
-    "project_id": "qitnational",
-    "storage_bucket": "qitnational.appspot.com"
+    "project_number": "239687464119",
+    "firebase_url": "https://smartqlabs-eff36.firebaseio.com",
+    "project_id": "smartqlabs-eff36",
+    "storage_bucket": "smartqlabs-eff36.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:832347124296:android:a434f05045de02cb",
+        "mobilesdk_app_id": "1:239687464119:android:d419bddedfea5102",
         "android_client_info": {
           "package_name": "com.example.joker.smartqlabs"
         }
       },
       "oauth_client": [
         {
-          "client_id": "832347124296-iimqkk6ddm2ti97vaufhej51ua2v23j7.apps.googleusercontent.com",
+          "client_id": "239687464119-99lcpfv18mvqkcuqm2803719hv503k6l.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.joker.smartqlabs",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "832347124296-141085th5dcphunbssvuf0ggqidomtt7.apps.googleusercontent.com",
+          "client_id": "239687464119-39mrbda95lb3kp0k4lr727ks2o0bkfe7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDNzusoqWxb_TVIft5g_wVp0ljA-1Lct6U"
+          "current_key": "AIzaSyCanC8nE4rBcQES0Nwi7btTQwuVbTYGSEk"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "832347124296-141085th5dcphunbssvuf0ggqidomtt7.apps.googleusercontent.com",
+              "client_id": "239687464119-39mrbda95lb3kp0k4lr727ks2o0bkfe7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

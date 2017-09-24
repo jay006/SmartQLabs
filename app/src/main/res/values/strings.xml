@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SmartQueueLabs</string>
+    <string name="app_name">SQLabs</string>
     <string name="image_discription">image</string>
     <string name="min">min</string>
     <string name="qr_otp">QR:-OTP</string>
