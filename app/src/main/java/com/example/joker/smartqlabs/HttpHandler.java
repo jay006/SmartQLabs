@@ -1,5 +1,6 @@
 package com.example.joker.smartqlabs;
 
+import android.support.annotation.NonNull;
 import android.util.Log;
 
 import java.io.IOException;
@@ -20,6 +21,7 @@ public final class HttpHandler {
 
 
     //to Fetch the response from url.
+    @NonNull
     private static String getResponseFromHttpUrl(InputStream in) throws IOException {
         StringBuilder buffer = null;
         try {
