@@ -1,2 +1,2 @@
-# Qit_Finals
+# SmartQLabs :- Universal Queue Management System.
 Now App is finalised
