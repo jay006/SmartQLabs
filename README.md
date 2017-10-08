@@ -1,2 +1,2 @@
-# Qit_Finals
+# Smart Q Labs
 Now App is finalised
